@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		947A56365184C4B63C355D89 /* Pods_Real_Talk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BA73546771CF3D32CC9028 /* Pods_Real_Talk.framework */; };
+		98193E6325217A8000FF0ABC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98193E6225217A8000FF0ABC /* GoogleService-Info.plist */; };
+		98697833252102270017F8E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98697832252102270017F8E8 /* AppDelegate.swift */; };
+		98697835252102270017F8E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98697834252102270017F8E8 /* SceneDelegate.swift */; };
+		98697837252102270017F8E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98697836252102270017F8E8 /* ViewController.swift */; };
+		9869783A252102270017F8E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98697838252102270017F8E8 /* Main.storyboard */; };
+		9869783C2521022B0017F8E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9869783B2521022B0017F8E8 /* Assets.xcassets */; };
+		9869783F2521022B0017F8E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9869783D2521022B0017F8E8 /* LaunchScreen.storyboard */; };
+		9869784C252103B80017F8E8 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9869784B252103B80017F8E8 /* RegisterViewController.swift */; };
+		9869784E252103C40017F8E8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9869784D252103C40017F8E8 /* LoginViewController.swift */; };
+		986978542521042D0017F8E8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986978532521042D0017F8E8 /* ProfileViewController.swift */; };
+		98D08C6D2528BFD500C50332 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D08C6C2528BFD500C50332 /* DBManager.swift */; };
+		98E868E9253175550031A537 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E868E8253175550031A537 /* ChatViewController.swift */; };
+		98E868EB253183D60031A537 /* StartConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E868EA253183D60031A537 /* StartConversationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3733EB8DF9ED42FB47504215 /* Pods-Real Talk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Real Talk.debug.xcconfig"; path = "Target Support Files/Pods-Real Talk/Pods-Real Talk.debug.xcconfig"; sourceTree = "<group>"; };
+		41BA73546771CF3D32CC9028 /* Pods_Real_Talk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Real_Talk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D6D2558751CE2A1401C3295 /* Pods-Real Talk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Real Talk.release.xcconfig"; path = "Target Support Files/Pods-Real Talk/Pods-Real Talk.release.xcconfig"; sourceTree = "<group>"; };
+		98193E6225217A8000FF0ABC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9869782F252102270017F8E8 /* Real Talk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Real Talk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98697832252102270017F8E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98697834252102270017F8E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		98697836252102270017F8E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		98697839252102270017F8E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9869783B2521022B0017F8E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9869783E2521022B0017F8E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		986978402521022B0017F8E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9869784B252103B80017F8E8 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		9869784D252103C40017F8E8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		986978532521042D0017F8E8 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		98D08C6C2528BFD500C50332 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		98E868E8253175550031A537 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		98E868EA253183D60031A537 /* StartConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartConversationViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9869782C252102270017F8E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947A56365184C4B63C355D89 /* Pods_Real_Talk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C5A87DACB05CB9FFA748028 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41BA73546771CF3D32CC9028 /* Pods_Real_Talk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7901A7786081E1D0EA735248 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3733EB8DF9ED42FB47504215 /* Pods-Real Talk.debug.xcconfig */,
+				5D6D2558751CE2A1401C3295 /* Pods-Real Talk.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		98697826252102270017F8E8 = {
+			isa = PBXGroup;
+			children = (
+				98697831252102270017F8E8 /* Real Talk */,
+				98697830252102270017F8E8 /* Products */,
+				7901A7786081E1D0EA735248 /* Pods */,
+				5C5A87DACB05CB9FFA748028 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		98697830252102270017F8E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9869782F252102270017F8E8 /* Real Talk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98697831252102270017F8E8 /* Real Talk */ = {
+			isa = PBXGroup;
+			children = (
+				98193E6225217A8000FF0ABC /* GoogleService-Info.plist */,
+				98697832252102270017F8E8 /* AppDelegate.swift */,
+				98697834252102270017F8E8 /* SceneDelegate.swift */,
+				986978402521022B0017F8E8 /* Info.plist */,
+				9869784A252102A20017F8E8 /* Views */,
+				98697847252102860017F8E8 /* Models */,
+				98697846252102790017F8E8 /* Controllers */,
+			);
+			path = "Real Talk";
+			sourceTree = "<group>";
+		};
+		98697846252102790017F8E8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				98697836252102270017F8E8 /* ViewController.swift */,
+				98E868E8253175550031A537 /* ChatViewController.swift */,
+				9869784D252103C40017F8E8 /* LoginViewController.swift */,
+				9869784B252103B80017F8E8 /* RegisterViewController.swift */,
+				986978532521042D0017F8E8 /* ProfileViewController.swift */,
+				98E868EA253183D60031A537 /* StartConversationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		98697847252102860017F8E8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				98D08C6C2528BFD500C50332 /* DBManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9869784A252102A20017F8E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				98697838252102270017F8E8 /* Main.storyboard */,
+				9869783B2521022B0017F8E8 /* Assets.xcassets */,
+				9869783D2521022B0017F8E8 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9869782E252102270017F8E8 /* Real Talk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 986978432521022B0017F8E8 /* Build configuration list for PBXNativeTarget "Real Talk" */;
+			buildPhases = (
+				75E9FDCF5A0D42082E0A8000 /* [CP] Check Pods Manifest.lock */,
+				9869782B252102270017F8E8 /* Sources */,
+				9869782C252102270017F8E8 /* Frameworks */,
+				9869782D252102270017F8E8 /* Resources */,
+				9DA475DA74F2ADAB2C790FD9 /* [CP] Embed Pods Frameworks */,
+				49E42101AD4B3D0141524C22 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Real Talk";
+			productName = "Real Talk";
+			productReference = 9869782F252102270017F8E8 /* Real Talk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98697827252102270017F8E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "David Kumar";
+				TargetAttributes = {
+					9869782E252102270017F8E8 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9869782A252102270017F8E8 /* Build configuration list for PBXProject "Real Talk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98697826252102270017F8E8;
+			productRefGroup = 98697830252102270017F8E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9869782E252102270017F8E8 /* Real Talk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9869782D252102270017F8E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9869783F2521022B0017F8E8 /* LaunchScreen.storyboard in Resources */,
+				98193E6325217A8000FF0ABC /* GoogleService-Info.plist in Resources */,
+				9869783C2521022B0017F8E8 /* Assets.xcassets in Resources */,
+				9869783A252102270017F8E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49E42101AD4B3D0141524C22 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Real Talk/Pods-Real Talk-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Real Talk/Pods-Real Talk-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Real Talk/Pods-Real Talk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75E9FDCF5A0D42082E0A8000 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Real Talk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DA475DA74F2ADAB2C790FD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Real Talk/Pods-Real Talk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Real Talk/Pods-Real Talk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Real Talk/Pods-Real Talk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9869782B252102270017F8E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98697837252102270017F8E8 /* ViewController.swift in Sources */,
+				98E868EB253183D60031A537 /* StartConversationViewController.swift in Sources */,
+				98697833252102270017F8E8 /* AppDelegate.swift in Sources */,
+				98E868E9253175550031A537 /* ChatViewController.swift in Sources */,
+				98697835252102270017F8E8 /* SceneDelegate.swift in Sources */,
+				98D08C6D2528BFD500C50332 /* DBManager.swift in Sources */,
+				9869784E252103C40017F8E8 /* LoginViewController.swift in Sources */,
+				9869784C252103B80017F8E8 /* RegisterViewController.swift in Sources */,
+				986978542521042D0017F8E8 /* ProfileViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		98697838252102270017F8E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98697839252102270017F8E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9869783D2521022B0017F8E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9869783E2521022B0017F8E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		986978412521022B0017F8E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		986978422521022B0017F8E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		986978442521022B0017F8E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3733EB8DF9ED42FB47504215 /* Pods-Real Talk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Real Talk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "david-kumar.Real-Talk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		986978452521022B0017F8E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D6D2558751CE2A1401C3295 /* Pods-Real Talk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Real Talk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "david-kumar.Real-Talk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9869782A252102270017F8E8 /* Build configuration list for PBXProject "Real Talk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986978412521022B0017F8E8 /* Debug */,
+				986978422521022B0017F8E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		986978432521022B0017F8E8 /* Build configuration list for PBXNativeTarget "Real Talk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986978442521022B0017F8E8 /* Debug */,
+				986978452521022B0017F8E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98697827252102270017F8E8 /* Project object */;
+}
