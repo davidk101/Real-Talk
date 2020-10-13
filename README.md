@@ -9,8 +9,8 @@ iOS application to implement a real-time chat application that supports:-
 
 ### Usage 
 - [Clone this repo to your local machine](https://github.com/davidk101/Real-Talk.git)
-- [Setup a Firebase account and add Realtime Database to website account](https://firebase.google.com/)
-- [Setup a Facebook for developers account add bundle identifier to website account](https://developers.facebook.com/)
-- [Setup a Google developers account and add authorization credentials to website account](https://developers.google.com/)
+- [Setup a Firebase account and add Realtime Database to account](https://firebase.google.com/)
+- [Setup a Facebook developers account and add bundle identifier](https://developers.facebook.com/)
+- [Setup a Google developers account and add authorization credentials](https://developers.google.com/)
 
 
